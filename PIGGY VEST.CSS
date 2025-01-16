@@ -1,0 +1,472 @@
+body{
+    background-color: rgb(242, 247, 248);
+   font-family: Jakarta, sans-serif;
+margin-top: 15px;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.flax{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+margin-right: 10px;
+}
+.flex-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-size: 15px;
+    /* letter-spacing: 0.1rem; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.flex-2{
+    display: flex;
+    gap: 35px;
+    font-size: 30px;
+    margin-top: -33px;
+    font-size: 70px;
+ 
+}
+.img{
+    margin-top: -20px;
+    margin-left: 10px;
+margin-right: 10px;
+}
+.btn-1{
+    border-radius: 6px;
+    padding: 10px;
+}
+.btn-2{
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+padding: 10px;
+}
+.btn-3{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: rgb(62, 62, 197);
+    word-spacing: 3px;
+}
+.para{
+    font-size: 35px;
+    
+}
+.pigg{
+    margin-top: -30px;
+    color: rgba(61, 79, 96, .6509803922);;
+}
+.flax-2{
+    display: flex;
+    margin-left: 10px;
+margin-right: 10px;
+gap: 30px;
+}
+.flax-3{
+    display: flex;
+    gap: 30px;      
+}
+
+.cass{
+    width: 500px;
+    height: 700px;
+    margin-left: 290px;
+    animation-name: cassl 15s ease-in-out 2s infinite;
+}
+@keyframes cassl{
+0%{
+    margin-top: 100px;
+}
+25%{
+    margin-top: 80px;
+}
+50%{
+    margin-top: 90px;
+}
+100%{
+margin-top: 0px;
+}
+}
+.btn-7{    
+    border-radius: 6px; 
+background-color :rgb(18, 34, 49);;
+color: white;
+padding: 0.5rem;
+border: rgb(18, 34, 49);;
+}
+.flax-5{
+    display: flex;
+    font-size: 15px;
+    gap: 12px;
+    margin-left: 10px;
+margin-right: 10px;
+}
+.img-2{
+    width: 75px;
+    height: 80px;
+}
+.spaw{
+    font-size: 12px;
+    color: rgba(61, 79, 96, .6509803922);; ;
+    
+}
+.span{
+ font-size: 14px;
+ margin-left: -7px;
+color: black;
+}
+.pa{
+    font-size: 45px;
+}
+.par{
+    font-size: 18px;
+  margin-top: -30px;
+  color: rgba(61, 79, 96, .6509803922);;
+}
+.grid-child{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+width: 100%;
+height: 1000px;
+gap: 25px;
+padding: 2rem; 
+}
+
+.piggy-1{
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: back 7s ease-in-out 7s infinite;
+    margin-top: -10px;
+}
+.piggy-2{
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: back 7s ease-in-out 7s infinite;
+    margin-top: -10px;
+}
+.piggy-3{
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: backer 7s ease-in-out 7s infinite;
+    margin-top: -10px;
+}
+.piggy-4{
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: backen 7s ease-in-out 7s infinite;
+    margin-top: -10px;
+}
+.piggy-5{
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: bac 7s ease-in-out 7s infinite;
+    margin-top: -10px;
+}
+.piggy-6{
+    border: 1px solid lightgrey;
+    width: 40%;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: ba 7s ease-in-out 7s infinite;
+    margin-top: -10px;
+}
+
+.di{
+    display: flex;
+    gap: 30px;
+}
+.fixed{
+    margin-left: 30px;
+    margin-top: 30px;
+    animation: fixed 7s linear 7s infinite;
+
+     }
+     .lock{
+        margin-left: 30px;
+        margin-top: -15px;
+        line-height: 25px;
+        font-size: 20px;
+        color:rgba(61, 79, 96, .6509803922); 
+        animation: lock 7s ease-in-out 7s infinite;
+     }
+     .iphone{
+        width: 190px;
+    margin-left: 500px;
+    margin-top: 200px;
+    animation: piggy-phone 10s ease-in-out 3s infinite;
+    border: none;
+}
+    @keyframes piggy-phone{
+      0%{
+        margin-top: 300px;
+        margin-left: 500px;
+      }  
+      25%{
+        margin-top: 190px;
+        margin-left: 200px;
+       
+      }  
+      50%{
+        margin-top: 0px;
+        margin-left: 200px; 
+      }  
+      75%{
+        margin-top: 0px;
+        margin-left: 200px;
+       
+      }  
+      100%{
+        margin-top: 300px;
+        margin-left: 150px;          
+      }  
+    }
+    @keyframes back{
+        0%{
+            /* background-color: white; */
+           h1{
+            color: lightblue;
+           }
+        }
+        25%{
+            background-color: blue;
+            color: white !important;
+        }
+        50%{
+            background-color: blue;
+            color: white !important;
+        }
+        100%{
+            /* background-color: white; */
+            color: white !important;
+        } 
+}
+@keyframes backer{
+    0%{
+        /* background-color: white; */
+       h1{
+        color: lightblue;
+       }
+    }
+    25%{
+        background-color: green;
+        color: white !important;
+    }
+    50%{
+        background-color: green;
+        color: white !important;
+    }
+    100%{
+        /* background-color: white; */
+        color: white !important;
+    }  
+}
+@keyframes backen{
+    0%{
+        /* background-color: white; */
+       h1{
+        color: lightblue;
+       }
+    }
+    25%{
+        background-color: red;
+        color: white !important;
+    }
+    50%{
+        background-color: red;
+        color: white !important;
+    }
+    100%{
+        /* background-color: white; */
+        color: white !important;
+    } 
+}
+@keyframes bac{
+    0%{
+        /* background-color: white; */
+       h1{
+        color: lightblue;
+       }
+    }
+    25%{
+        background-color: rgb(22, 33, 44);
+        color: white !important;
+    }
+    50%{
+        background-color: rgb(22, 33, 44);
+        color: white !important;
+    }
+    100%{
+        /* background-color: white; */
+        color: white !important;
+    } 
+}
+@keyframes ba{
+    0%{
+        /* background-color: white; */
+       h1{
+        color: lightblue;
+       }
+    }
+    25%{
+        background-color: orangered;
+        color: white !important;
+    }
+    50%{
+        background-color: orangered;
+        color: white !important;
+    }
+    100%{
+        /* background-color: white; */
+        color: white !important;
+    } 
+}
+
+
+    @keyframes fixed{
+        0%{
+            color: lightblue;
+        }
+        25%{
+            color: white;
+        }
+        50%{
+            color: lightblue !important;
+        }
+        100%{
+            color: green!important;
+        }
+
+    }
+    .sect{
+         margin-top: 450px;
+         /* line-height: 12px; */
+         background-color: white;
+         border: white solid;
+         width: 100%;
+         height:fit-content;
+         margin-left: 0px;
+         padding: 2.5rem;
+         margin-left: 10px;
+margin-right: 10px;
+    }
+   
+    .flax-6{
+        background-color: #7913e5;
+        border-radius: 12px;
+        width: 800px;
+        height: 300px;
+        margin-top: 50px;
+        padding: 3rem;
+    display: flex; 
+    gap: 95px;
+    margin-left: 10px;
+margin-right: 10px;
+    }
+     .Earn{
+font-size: 30px;
+text-align: left;
+color: white;
+     }
+     .Invest{
+font-size:23px;
+text-align: left;
+color: white;
+     }
+     .img-3{
+        width:320px;
+        height: 320px;
+    margin-top: 28px; 
+    margin-left: 59px;
+    }
+    .vid{
+        border:  9px solid white;
+         border-radius: 9px;
+    }
+    .flax-7{
+        display: flex;
+        margin-left: 10px;
+margin-right: 10px;
+    }
+    .img-4{
+        width: 420px;
+        height: 380px;
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 10px;
+    }
+    
+    .btn-5{
+        padding: 0.5rem;
+    }
+    .btn-6{
+        padding: 0.5rem;
+    }
+    .SE{
+        background-color: white;
+        padding: 1rem;
+        color: rgba(61, 79, 96, .6509803922);;
+    }
+    .final{
+        display: flex;
+     gap: 60px;
+     margin-left: 15px;
+     margin-right: 15px;
+     justify-content: center;
+   
+    }
+    .cans{
+        font-size: 6Opx;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .im{
+        width: 150px;
+        height: 80px;
+        
+    }
+    .flax-8{
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+        line-height: 31px;
+    }
+    .images{
+        width: 280px;
+        height: 150px;
+    }
+    .imag{
+        margin-left: 4px;
+        column-gap: 50px;
+    }
+    .foot{
+        color: rgba(61, 79, 96, .6509803922);;
+        margin-left: 35px;
+        margin-right: 50px;
+    }
+    .hr{
+        justify-content: center;
+    }
+  
